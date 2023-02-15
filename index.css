@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+/* identical to box height, or 90% */
+    text-align: center;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.score1 {
+    background-color: black;
+    border-radius: 5px;
+    position:absolute;
+    padding: 30px 60px 30px;
+    margin: 5px auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+   
+}
+
+.btn-score{
+    position: relative;
+    margin: 231px 0 0 0;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    border-style:ridge;
+    border-radius: 5px;
+    width: 50px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 28px;
+/* or 155% */
+
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.btn-score:hover {
+    background-color: #9AABD8;
+    color: white;
+}
+
+.btn-score1:hover {
+    background-color: #9AABD8;
+    color: white;
+}
+
+.score2 {
+    background-color: black;
+    border-radius: 5px;
+    position:absolute;
+    padding: 30px 60px 30px;
+    margin: 5px auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    
+}
+
+.btn-score1{
+    position: relative;
+    margin: 231px 0 0 0;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    border-style:ridge;
+    border-radius: 5px;
+    width: 50px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 28px;
+/* or 155% */
+
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.btn-score2{
+    position: relative;
+    margin: 450px 0 0 0;
+    color: #9AABD8;
+    background-color: black;
+    border-color: #9AABD8;
+    border-style:ridge;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 28px;
+/* or 155% */
+
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-score2:hover {
+    background-color: #9AABD8;
+    color: white;
